@@ -1,5 +1,5 @@
 from selene import browser, be, have
-
+pip install selene --pre
 
 browser.open('https://google.com')
 browser.element('[name="q"]').should(be.blank).type('yashaka/selene').press_enter()
